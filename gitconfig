@@ -1,0 +1,23 @@
+[user]
+  name = Chris Thorn
+  email = thorncp@gmail.com
+[github]
+  user = thorncp
+[alias]
+  amend = commit --amend -C HEAD
+  au = add -u
+  b = branch
+  d = diff
+  dc = diff --cached
+  l = "!git ll -12"
+  la = "!git ll --all"
+  ll = "log --graph --pretty='format:%C(yellow)%h %C(green)%ar %C(cyan)%an %C(red)%d %C(reset)%s'"
+  lt = "!git ll --simplify-by-decoration"
+  rba = rebase --abort
+  rbc = rebase --continue
+  s = status -sb
+  wd = diff --word-diff
+[rebase]
+  autosquash = true
+[grep]
+  lineNumber = true

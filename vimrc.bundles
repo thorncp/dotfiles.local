@@ -1,0 +1,6 @@
+Plugin 'tpope/vim-markdown'
+Plugin 'vim-scripts/golden-ratio'
+
+" setting this here so all the thoughtbot/dotfile mappings aren't made with the
+" ridiculous space key leader
+let mapleader = "\\"
