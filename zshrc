@@ -3,6 +3,8 @@ bindkey -e
 bindkey '^[[1;5C' forward-word # mapped in iterm as ctrl+right
 bindkey '^[[1;5D' backward-word # mapped in iterm as ctrl+left
 
+export PATH=~/bin:$PATH
+
 # override with custom color
 git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null)
