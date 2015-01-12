@@ -1,2 +1,0 @@
-staging() { heroku "$@" --remote staging; }
-production() { heroku "$@" --remote production; }
