@@ -12,4 +12,4 @@ let g:ctrlp_working_path_mode = 0 " ctrlp tries to be too smart
 
 colorscheme railscasts256
 
-let g:rspec_command = "!clear; rspec --format documentation {spec}"
+let g:rspec_command = "!clear; bundle exec rspec --format documentation {spec}"
